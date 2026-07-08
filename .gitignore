@@ -1,0 +1,21 @@
+*.iml
+.gradle
+/local.properties
+local.properties
+.DS_Store
+.externalNativeBuild
+.cxx
+.kotlin
+
+# Build outputs (todos los módulos: app, control, etc.)
+**/build/
+/captures
+
+# Firebase / secrets a nivel de módulo Android
+# (backend/.env y backend/serviceAccount.json ya se ignoran vía backend/.gitignore)
+app/google-services.json
+*.jks
+*.keystore
+
+# Android Studio / IntelliJ (config específica del usuario/IDE)
+.idea/

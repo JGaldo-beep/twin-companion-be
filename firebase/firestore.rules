@@ -1,0 +1,14 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // El muneco (app de la amiga) puede LEER el contexto de Antonio.
+    // Nadie puede escribir directo: solo la Cloud Function setContext,
+    // que usa el Admin SDK y se salta estas reglas.
+    match /context/{owner} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}

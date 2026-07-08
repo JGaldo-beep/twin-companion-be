@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Pixel-art character icon — 9×11 grid, each cell = 6×6 units
+  Grid origin: x=27, y=21  (centered in 108×108 safe zone)
+  Colors: hair=#2C1810  skin=#FDBCB4  eyes=#333333  shirt=#2E86DE  pants=#2C3E50
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Hair (dark brown) — rows 0-1 -->
+    <path
+        android:fillColor="#2C1810"
+        android:pathData="M39,21 h24 v6 h-24 Z
+                          M33,27 h42 v6 h-42 Z"/>
+
+    <!-- Face / skin — rows 2-4 -->
+    <path
+        android:fillColor="#FDBCB4"
+        android:pathData="M33,33 h42 v6 h-42 Z
+                          M33,39 h42 v6 h-42 Z
+                          M33,45 h42 v6 h-42 Z"/>
+
+    <!-- Eyes — row 3, cols 2 and 6 -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M39,39 h6 v6 h-6 Z
+                          M63,39 h6 v6 h-6 Z"/>
+
+    <!-- Mouth hint — bottom of row 4 -->
+    <path
+        android:fillColor="#E8A090"
+        android:pathData="M45,48 h18 v3 h-18 Z"/>
+
+    <!-- Shirt (blue) — rows 5-7, arms span full width on rows 6-7 -->
+    <path
+        android:fillColor="#2E86DE"
+        android:pathData="M33,51 h42 v6 h-42 Z
+                          M27,57 h54 v6 h-54 Z
+                          M27,63 h54 v6 h-54 Z"/>
+
+    <!-- Pants — row 8 (waist), rows 9-10 (legs split) -->
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M33,69 h42 v6 h-42 Z
+                          M33,75 h18 v6 h-18 Z
+                          M57,75 h18 v6 h-18 Z
+                          M33,81 h18 v6 h-18 Z
+                          M57,81 h18 v6 h-18 Z"/>
+
+</vector>

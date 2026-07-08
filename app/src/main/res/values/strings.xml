@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Twin Companion</string>
+
+    <!-- Frases que dice el muñeco al tocarlo (Fase 1 — fallback local).
+         Reemplazá estas por tus 10 frases/chistes reales. -->
+    <string-array name="antonio_phrases">
+        <item>Gis… No me toques mucho porque ya sabes que pasa 😏</item>
+        <item>No entiendo a las personas… ¿y tú? 🤔</item>
+        <item>Las series coreanas están raras últimamente 📺</item>
+        <item>¿Patacones o arroz con leche? 🍚</item>
+        <item>El suero costeño es la monda 😋</item>
+        <item>Pensamos tantas cosas que nos olvidamos de comer 🍽️</item>
+        <item>Bueno, bailemos… 💃</item>
+        <item>Creo que ya encontré las respuestas a tantas preguntas ✨</item>
+        <item>La lavadora se va a arruinar… 🧺</item>
+        <item>¿Es cierto que Junior es… tu papá? 🦈</item>
+    </string-array>
+</resources>
